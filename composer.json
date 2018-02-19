@@ -1,0 +1,17 @@
+{
+    "name": "rename-pin",
+    "description": "Aplicação para renomear arquivo em grande quantidade",
+    "keywords": ["PDF", "text", "parser", "parse", "extract"],
+    "authors": [
+        {
+            "name": "Matheus Gomes",
+            "email": "matheusnascgomes@gmail.com"
+        }
+    ],
+  
+
+    "require": {
+        "smalot/pdfparser": "*"
+    }
+
+}
