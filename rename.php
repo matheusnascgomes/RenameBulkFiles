@@ -6,7 +6,12 @@ include 'vendor/autoload.php';
 $parser = new \Smalot\PdfParser\Parser();
 
 foreach (new DirectoryIterator('./PIN') as $fileInfo) {
-    if($fileInfo->isDot()) continue;
+    
+    if($fileInfo->isDot()){
+        continue;
+    }else{
+        header('location: index.php');
+    }
     
     $locationOldFile = "PIN/".$fileInfo->getFilename();
 
@@ -24,7 +29,5 @@ foreach (new DirectoryIterator('./PIN') as $fileInfo) {
     
     rename($locationOldFile, $newName);
 }
-
-
-
+   
 ?>
