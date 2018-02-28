@@ -16,7 +16,7 @@ require_once('upload.php');
 				<a href="#" class="brand-logo ">RenameBulkFiles</a>
 				<div class="right">
 					<a class="btn" href="/rename.php">Renomar</a>	
-					<a class="btn" href="">Download</a>	
+					<a class="btn" href="/download.php">Download</a>	
 				</div>
 		    </div>
 		    
