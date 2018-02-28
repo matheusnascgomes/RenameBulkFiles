@@ -38,7 +38,7 @@ require_once('upload.php');
 					<input class="file-path validate" type="text"> 
 				</div>
 			</div>
-			<button class="btn" type="submit" value="Enviar">Enviar</button>
+			<input class="btn" type="submit" value="Enviar" />
 		</form>
 
 		</div>
